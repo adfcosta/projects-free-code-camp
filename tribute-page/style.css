@@ -1,0 +1,37 @@
+* {
+  color: #352f38;
+}
+
+body {
+  background-color: #4C265C;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background-color: #A390AB;
+  width: 50%;
+  border-radius: 2%;
+  padding-bottom: 1%;
+}
+
+
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
