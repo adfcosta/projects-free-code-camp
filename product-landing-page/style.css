@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    background-color: #595259;
+}
+h1 {
+    color: azure;
+    font-size: x-large;
+    align-self: center;
+}
+header img {
+    width: 5%;
+}
