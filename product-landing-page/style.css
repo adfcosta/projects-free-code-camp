@@ -1,6 +1,8 @@
 header {
     display: flex;
     background-color: #595259;
+    width: 100%;
+    justify-content: space-between;
 }
 h1 {
     color: azure;
@@ -9,4 +11,14 @@ h1 {
 }
 header img {
     width: 5%;
+}
+
+nav {
+    align-self: center;
+}
+
+nav a {
+    color: lavender;
+    
+ 
 }
