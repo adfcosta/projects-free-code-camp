@@ -1,32 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
 header {
     display: flex;
     background-color: #595259;
-    width: 100%;
+    width: auto;
     justify-content: space-between;
 }
 h1 {
     color: azure;
     font-size: x-large;
     align-self: center;
+    text-align: center;
 }
 header img {
-    width: 5%;
+    width: 3%;
 }
 
 nav {
     align-self: center;
+    font-family: "Montserrat";
+    list-style: none;
 }
 
-nav a {
+nav a, a:visited{
     color: lavender;
-    
- 
+    font-family: "Montserrat";
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 80%;
     align-self: center;
+    background-color: rgb(221, 221, 221);
+}
+
+nav li {
+  display: inline-block;
+  padding: 0px 20px;
 }
